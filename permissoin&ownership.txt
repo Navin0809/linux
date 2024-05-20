@@ -1,0 +1,25 @@
+FILE AND DIRECTORY PERMISSIONS
+
+based on least previleage
+
+ls -l
+shows all info including PERMISSIONS
+
+read r
+write w
+execute x
+
+owner u 
+group g
+other o
+
+chmod
+change permissions
+
+4 read
+2 write
+1 execute
+
+umask
+set defualt permissions to new files n folders
+

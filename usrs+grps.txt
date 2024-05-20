@@ -63,4 +63,40 @@ creates group
 sudo groupmod -n newname oldname
 changes group name
 
-sudo usermod 
+sudo usermod -aG groupname username
+add user to group
+
+sudo groupdel groupname
+del group
+
+QUERY USERS+GROUPS
+
+whoami
+shows current loggedin user
+
+#-root user
+$-standard user
+
+id 
+shows user id and group id
+
+who
+shows login date and info
+
+w
+shows tasks of users
+
+last
+shows login/off data
+
+PROFILE CUSTOMIZATION
+
+.bashrc
+custom user bash config
+
+.bashrc_profile
+
+/etc/skel
+when a new user is added,all the content in 
+skel added to home dir of user
+
