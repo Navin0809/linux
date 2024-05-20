@@ -1,0 +1,13 @@
+locate 
+quick search in database 
+
+
+find
+search for files at specific location
+
+which cmdname
+shows file loc
+
+whereis ls
+gives the path
+

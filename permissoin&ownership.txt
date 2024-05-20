@@ -14,7 +14,7 @@ group g
 other o
 
 chmod
-change permissions
+change permissions of old files
 
 4 read
 2 write
@@ -22,4 +22,22 @@ change permissions
 
 umask
 set defualt permissions to new files n folders
+
+
+chmod 777 filename
+
+chmod g/u/o+r/w/e filename
+
+to change umask ,edit .bashrc filename
+
+chown
+change ownership of file
+
+chgrp
+change ownership group of file
+
+
+
+
+
 

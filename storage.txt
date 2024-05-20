@@ -1,0 +1,51 @@
+PARTITIONS
+
+block devices
+hard drives,ssd
+
+character devices 
+keyboard,mice,serial ports
+
+filesystems
+fat compatibility
+ext2
+ext3 faster
+ext4 large volumes
+
+network
+
+smb server message block
+nfs network file system 
+
+index node (inode)
+contains the meta data of the file in fiel system 
+creation,permissin,block location ,execute
+
+
+partition types
+
+primary - boot partition  ,swap file system 
+extended - 
+logical 
+
+fdisk
+create or modify  PARTITIONS
+
+fstab
+stores info about storage dev,partitions mounting detials 
+
+TROUBLE SHOOTING
+
+ulimit -n 512
+limit of max open fiels per user
+
+df - shows block storage
+df -h human readable 
+
+du - device is used 
+
+ioping -c 4 foldername
+shows time for the request to complete
+
+iostat
+

@@ -1,0 +1,18 @@
+ps
+shows current processes of the user
+
+ps -ef | less
+shows all processes
+
+pgrep process name
+gets the pid
+
+command  &
+runs it in background
+
+kill pid
+kill the process
+
+lsof
+displays files run by processes
+
