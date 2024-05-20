@@ -1,0 +1,12 @@
+man pages
+documentation for linux commands
+
+apropos
+finds similar commands 
+
+whatis
+describes the commands
+
+/usr/share/doc 
+location where all documentation stored 
+

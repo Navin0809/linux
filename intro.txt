@@ -1,0 +1,69 @@
+open source software
+
+ cli interacts with the shell
+
+ we are using bash in this course
+
+ echo  
+ print 
+
+ ls 
+ lists the content
+
+ pwd
+ current working directory
+
+ cd
+ change directory
+
+ cp file1 file2
+ copy
+
+ mkdir
+ create new directory
+
+ clear
+ clear the cli
+
+ cat 
+ view the content
+
+ less
+ view content in many pages
+
+ vim nano gedit
+ text editors
+
+ shutdown -h now
+ power off immediate
+
+ shutdown -r now
+ reboot
+
+ su 
+ switch users
+
+ history
+ shows the previous commands
+
+ ls -al
+ a-hidden
+ l-more
+ shows hidden files n folders
+
+ cd /var/log
+ all system logs
+
+ touch
+ creates file 
+
+ vim filename
+ edit/create the file 
+
+ reboot
+ reboot the system
+
+ 
+
+
+

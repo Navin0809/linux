@@ -1,0 +1,66 @@
+su - 
+or 
+su root
+
+
+USERS
+
+create user
+useradd username
+passwd username 
+
+to edit sudoers file,we must use visudo
+
+passwords stored in /etc/shadow file
+
+to get info about users
+cat /etc/passwd
+
+sudo useradd -e 2021/12/23 stanley
+-e sets expiration date 
+
+sudo chage -E date username
+changes the expiration date 
+
+sudo chage -M 90 username
+sets the password change date 
+
+sudo usermod -l oldname newname
+changes the username 
+
+sudo passwd username
+changes password 
+
+sudo chage -l username
+gets info about password
+
+sudo passwd -l username
+locks password
+
+sudo passwd -u username
+unlocks password
+
+sudo userdel username
+deletes the user 
+wont delete directory
+
+sudo userdel -r username
+deletes user and directory
+
+
+
+USER GROUPS
+
+/etc/groups
+storage location for groups
+
+cat /etc/groups
+give info about groups
+
+sudo groupadd groupname
+creates group
+
+sudo groupmod -n newname oldname
+changes group name
+
+sudo usermod 
