@@ -37,15 +37,26 @@ stores info about storage dev,partitions mounting detials
 TROUBLE SHOOTING
 
 ulimit -n 512
-limit of max open fiels per user
+limit of max open files per user
 
-df - shows block storage
+ulimit -a 
+shows the limit
+
+
+df - shows  free block storage
 df -h human readable 
 
-du - device is used 
+du - device is used,in depth files sizes
+
+
+i/o scheduler 
+based on the usecase we can change the scheduler
+ex-noop
 
 ioping -c 4 foldername
-shows time for the request to complete
+shows latency  time for the request to complete
+
+
 
 iostat
 

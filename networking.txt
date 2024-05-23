@@ -1,0 +1,123 @@
+networking
+one of the major component
+
+tcp/ip-mostly used
+
+osi model-
+
+node-ex as  a device in a network
+
+mac-physical address l2
+ip-logical address l3
+
+hostname of the node
+human readable instead of ip 
+
+switch
+internal network
+based on mac 
+l2
+
+router
+internal to outer network
+based on ip
+l3
+
+packet
+l3-network
+
+frame 
+l2-data link 
+
+bits
+physical layer l1
+
+dns - domain name system 
+
+dhcp 
+dynamic host configuration protocol 
+
+step-1
+check for ip address
+ifconfig
+
+iwconfig
+wireless nic configuration
+
+nmtui/nmgui/nmcli
+network manager utility
+
+nmcli general status
+
+nmcli connection
+
+nmcli device status
+
+nmcli con up devicename 
+nmcli con down devicename
+
+/etc/hosts
+
+contains native dns records which we customize
+
+/etc/resolv.conf 
+contains the dns servers to use 
+ 
+dig domainname 
+
+nslookup
+
+trouble shooting
+
+
+check device is powered on or not 
+
+verify and configure network interface
+
+check whether NI detected by linux device or not 
+
+ping destination by hostname 
+and by ip address
+
+if ping happnes by ip,then its a dns resolver issue 
+-use nslookup to perform dns happening or not 
+
+NIC card failure
+
+network utilities
+ping
+to check connection happening or not 
+
+traceroute
+shows network path of each hop
+
+netstat
+gather info about tcp connections 
+
+ss(socket state)
+
+dig
+shows domain name and to test our dns against google's dns
+
+nslookup
+
+ip addr
+to check configuration
+
+route 
+to check routing table 
+and to add default gateway
+
+nmap
+
+tcpdump 
+packet snipper
+to track network packets 
+
+iftop
+shows bandwidth usage 
+
+
+
+
+
