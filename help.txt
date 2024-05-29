@@ -10,4 +10,4 @@ describes the commands
 /usr/share/doc 
 location where all documentation stored 
 
-check--
+check-- -
